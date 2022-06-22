@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* styling the card */
+.card{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 35%;
+    border: transparent;
+    border-radius: 20px;
+}
+
+/* styling the card-container */
+.card-content{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* styling the card-image */
+.card-image{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Background color for card contents */
+.card, .card-content, .minitext1, .minitext2, .minitext3, h3, p,
+.eth, .clock, .avatar, .avatar-text, .mm,
+.p1, .p2, .ethicon, .clockicon{
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* styling for minitext1 */
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+p{
+    margin-bottom: 20px;
+    color: hsl(215, 32%, 27%);
+    font-size: 20px;
+}
+
+/* styling for minitext2 */
+.minitext2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.eth{
+    font-size: 22px;
+    color: aqua;
+}
+
+.clock{
+    font-size: 20px;
+    color: hsl(215, 32%, 27%);
+}
+
+/* styling for minitext3 */
+.minitext3{
+    display: flex;
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    border-top: 2px solid hsl(215, 32%, 27%);
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.avatar-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar-text{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.p1{
+    color: hsl(215, 32%, 27%);
+}
+
+.p2{
+    color: white;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 90%;
+    }
+    .p1, .p2 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .card{
+        width: 90%;
+    }
+}
